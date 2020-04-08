@@ -1,4 +1,4 @@
-class DatomicFree < Formula
+class Datomic < Formula
   desc "A transactional database with a flexible data model, elastic scaling, and rich queries."
   homepage "https://www.datomic.com/"
   url "https://my.datomic.com/downloads/free/0.9.5544"
