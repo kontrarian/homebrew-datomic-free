@@ -7,8 +7,6 @@ class Datomic < Formula
 
   bottle :unneeded
 
-  depends_on :openjdk
-
   def install
     inreplace "config/samples/free-transactor-template.properties" do |s|
       s.gsub! "# data-dir=data", "data-dir=#{var}/lib/datomic/"
