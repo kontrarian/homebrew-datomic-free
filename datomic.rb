@@ -7,7 +7,7 @@ class Datomic < Formula
 
   bottle :unneeded
 
-  depends_on :java
+  depends_on :openjdk
 
   def install
     inreplace "config/samples/free-transactor-template.properties" do |s|
